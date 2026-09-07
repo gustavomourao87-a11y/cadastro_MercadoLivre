@@ -28,35 +28,40 @@ form {
     border-radius: 7px;
 }
 form h1{
-    font-size: 16px;
+    font-weight: 530;
+    font-size: 25px;
     position: relative;
-    top: 20px;
+    top: 60px;
     text-align: center;
 }
 .opcao {
     display: flex;
     align-items: center;
-    width: 500px;
+    width: 450px;
     height: 35px;
     margin: 0 auto;
     position: relative;
-    top: 50px;
+    top: 70px;
     padding: 20px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.116);
 
 }
 .opcao h2 {
-    font-weight: normal;
+    font-weight: 100;
     font-size: 16px;
+    position: relative;
+    top: 10px;
 }
 .opcao p {
     color: #666666;
+    position: relative;
+    top: -25;
 }
 .opcao button {
     margin-left: auto;
-    background: blue;
+    background-color:  #3483FA;
     border-radius: 5px;
     color: white;
     width: 110px;
