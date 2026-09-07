@@ -1,5 +1,11 @@
 header {
+    background: #FFE600;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
+        padding: 20px;
+}
+header img {
+    width: 100px;
+    height: 100px;
 }
