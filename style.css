@@ -1,9 +1,13 @@
+body {
+    margin: 0;
+}
 header {
     background: #FFE600;
         display: flex;
+        width: 100vw;
         justify-content: flex-start;
         align-items: center;
-        padding: 20px;
+        
 }
 header img {
     width: 100px;
