@@ -3,28 +3,32 @@ body {
     margin: 0; 
     font-family: "Montserrat", sans-serif;
 }
+.logo{
+    width: 40px;
+    height: 40px;
+}
 header {
     background: #FFE600;
         display: flex;
-        width: 100vw;
-        height: 55px;
+        width: 100%;
+        height: 53px;
         justify-content: flex-start;
-        align-items: center;
-        
-        
+        align-items: center;       
 }
 header img {
-    width: 100px;
+    width: 200px;
     height: 100px;
+    position: relative;
+    left: 100px;
 }
 form {
     background: white;
     position: relative;
     top: 70px;
     width: 600px;
-    height: 450px;
+    height: 600px;
     margin: 0 auto;
-    transform: translateX(px);
+    transform: translateX(30px);
     border-radius: 7px;
 }
 form h1{
@@ -34,36 +38,42 @@ form h1{
     top: 60px;
     text-align: center;
 }
-.opcao {
+.destaque {
     display: flex;
     align-items: center;
     width: 450px;
     height: 35px;
-    margin: 0 auto;
-    position: relative;
-    top: 70px;
+    margin: 75px auto;
+    margin-bottom: 15px;
     padding: 20px;
     border: 2px solid white;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.116);
+    box-shadow: 0 1px 5 px rgba(0, 0, 0, 0.116);
 
 }
-.opcao h2 {
+.titulo  {
     font-weight: 100;
     font-size: 16px;
     position: relative;
     top: 10px;
 }
-.opcao p {
+.descricao {
     color: #666666;
     position: relative;
-    top: -25;
+    white-space: nowrap;
 }
-.opcao button {
+.destaque button {
     margin-left: auto;
     background-color:  #3483FA;
     border-radius: 5px;
     color: white;
     width: 110px;
     height: 35px;
+}
+.opcao  {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin: 10px auto;
 }
