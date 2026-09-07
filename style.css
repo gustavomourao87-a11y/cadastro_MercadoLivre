@@ -92,7 +92,8 @@ form h1{
 
     .destaque,
     .opcao {
-        
+        width: 90%;
+        height: 90%;
     }
     header {
         width: 100%;
